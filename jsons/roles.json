@@ -1,0 +1,14 @@
+[
+    {
+        "characterName": "管理员",
+        "characterCode": "admin",
+        "roles": ["NavTest", "Nav1", "Nav2", "Nav2-1", "Nav2-2", "Nav2-2-1", "Nav2-2-2", "Permission", "userCenter"],
+        "description": "拥有所有权限"
+    },
+    {
+        "characterName": "用户一",
+        "characterCode": "userOne",
+        "roles": ["NavTest", "Nav1", "Nav2", "Nav2-1"],
+        "description": "拥有部分权限"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "admin",
+        "roles": ["NavTest", "Nav1", "Nav2", "Nav2-1", "Nav2-2", "Nav2-2-1", "Nav2-2-2", "Permission", "userCenter"],
+        "password": "123456"
+    },
+    {
+        "name": "edit",
+        "password": "123456",
+        "roles": ["NavTest", "Nav1", "Nav2", "Nav2-1"]
+    }
+]
