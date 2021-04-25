@@ -44,6 +44,9 @@ router.get('/getRoles', userControls.getRoles)
 // 修改权限信息
 router.post('/setRoles', userControls.setRoles)
 
+// 获取权限列表
+router.get('/getRolesList', userControls.getRolesList)
+
 app.use(bodyParser()); 
 
 // 注册路由

@@ -1,1 +1,49 @@
-[{"characterName":"管理员","characterCode":"admin","roles":["Home","Dashbord","NavTest","Nav1","Nav2","Nav2-1","Nav2-2","Nav2-2-1","Nav2-2-2","Permission","userCenter"],"description":"拥有所有权限"},{"characterName":"用户一","characterCode":"userOne","roles":["Dashbord","Nav1","Permission","Character"],"description":"拥有部分权限"},{"characterName":"角色2","characterCode":"roles2","roles":["Dashbord","Permission","Character"]}]
+[
+    {
+        "characterName": "管理员",
+        "characterCode": "admin",
+        "description": "拥有所有权限",
+        "id": "1619344724201",
+        "roles": [
+            "Dashbord",
+            "NavTest",
+            "Nav1",
+            "Nav2",
+            "Nav2-1",
+            "Nav2-2",
+            "Nav2-2-1",
+            "Nav2-2-2",
+            "Permission",
+            "Character",
+            "Useredit"
+        ],
+        "type": "update"
+    },
+    {
+        "characterName": "用户一",
+        "characterCode": "userOne",
+        "description": "拥有角色1的权限",
+        "id": "1619344724355",
+        "roles": [
+            "Dashbord",
+            "NavTest",
+            "Nav2",
+            "Nav2-1",
+            "Nav2-2",
+            "Nav2-2-1",
+            "Nav2-2-2"
+        ],
+        "type": "update"
+    },
+    {
+        "id": "1619344724466",
+        "characterName": "角色2",
+        "characterCode": "roles2",
+        "roles": [
+            "Dashbord",
+            "Permission",
+            "Character"
+        ],
+        "description": "拥有角色2的权限"
+    }
+]

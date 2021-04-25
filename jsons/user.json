@@ -1,12 +1,14 @@
 [
     {
-        "name": "admin",
-        "roles": ["Home", "Dashbord", "NavTest", "Nav1", "Nav2", "Nav2-1", "Nav2-2", "Nav2-2-1", "Nav2-2-2", "Permission", "userCenter"],
+        "name": "管理员",
+        "code": "admin",
+        "roles": ["admin"],
         "password": "123456"
     },
     {
-        "name": "edit",
+        "name": "sang",
+        "code": "edit",
         "password": "123456",
-        "roles": ["Home", "Dashbord", "NavTest", "Nav1", "Nav2", "Nav2-1"]
+        "roles": ["userOne"]
     }
 ]
